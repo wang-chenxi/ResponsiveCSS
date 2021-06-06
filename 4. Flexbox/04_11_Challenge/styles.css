@@ -24,4 +24,25 @@ header {
 .links {
 	background-color: #E9F9E1;
 	border: 1px solid gray;
+    flex: none;
+}
+.container{
+	display: flex;
+}
+.container-header{
+	display: flex;
+	justify-content: space-between;
+}
+.image2{
+	order:1;
+}
+.links {
+    background-color: #E9F9E1;
+    border: 1px solid gray;
+    order: 1;
+    align-self: flex-start;
+}
+.container-body{
+	flex-direction: column;
+	max-width: 1000px;
 }
